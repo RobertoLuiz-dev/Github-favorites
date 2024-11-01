@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --body-color: #000000;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--body-color);
+  color: #C9D1D9;
+}
+
+#app {
+  width: 90%;
+  height: 100vh;
+  margin: 5rem auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+header h1 img {
+  width: 15rem;
+}
+
+#add {
+  display: flex;
+  align-self: flex-end;
+  margin-left: auto;
+  width: 80%;
+  gap: .5rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+#add input {
+  background-color: #182216;
+  border: 1px solid #8B949E;
+  padding: 1rem;
+  color: #FFF;
+  border-radius: .6rem 0 0 .6rem;
+  width: 60%;
+}
+
+#add input::placeholder {
+  color: #8B949E;
+}
+
+#add button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  background-color: #238686;
+  color: #FFF;
+  border: none;
+  padding: 1rem 1.8rem;
+  border-radius: 0 .6rem.6rem 0;
+  cursor: pointer;
+}
+
+#add button p {
+  margin: 0;
+  font-weight: bold;
+}
+
+#add button:hover {
+  filter: brightness(120%) contrast(110%) saturate(150%);
+  transition: filter 0.3s ease;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 1rem 1rem 1rem -.1rem rgba(132, 131, 131, 0.8);
+}
+
+table * {
+  font-size: 1rem;
+}
+
+thead th {
+  background-color: #47434b;
+  padding: 1rem .5rem;
+  text-align: left;
+  color: #C9D1D9;
+}
+
+tbody tr:nth-child(odd) {
+  background: #4c6b6d;
+}
+
+tbody tr:nth-child(even) {
+  background: #4b4747;
+}
+
+tbody td {
+  padding: .5rem;
+  border-bottom: 1px solid #30363D;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.user a {
+  text-decoration: none;
+  color: #C9D1D9;
+}
+
+.user p {
+  font-weight: bold;
+}
+
+.user span {
+  color: #8B949E;
+}
+
+.repositories, .followers {
+  text-align: center;
+}
+
+tbody button {
+  background-color: transparent;
+  border: none;
+  color: #F85149;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+tbody button:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 4rem;
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.creator a {
+  margin-left: 1.5rem;
+}
+
+#avatar {
+  margin: 1rem;
+  aspect-ratio: 1;
+  width: 3rem;
+  border-radius: 50%;
+}
+
+#avatar:hover {
+  transform: rotate(15deg) scale(1.2);
+  transition: all .8s;
+  cursor: pointer;
+}
+
+footer p {
+  font-size: 1.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+td img {
+  border-radius: 50%;
+  width: 5.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  border: 1px solid #4A808C;
+  border-radius: 1.2rem;
+}
+
+thead {
+  background-color: #0b2d34;
+}
+
+th {
+  text-align: left;
+  padding: 1rem;
+  color: #E1E1E6;
+
+}
+
+tbody {
+  background-color: #0d1117;
+}
+
+td {
+  padding: 1rem;
+  color: #E1E1E6;
+  border-bottom: 1px solid #4A808C;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #E1E1E6;
+}
+
+a span {
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+button {
+  color: #c28c5f;
+  font-weight: bold;
+  font-size: 1.6rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #F75A68;
+}

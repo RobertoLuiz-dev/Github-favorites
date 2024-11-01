@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Favorites</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./images/git-tips.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="js/main.js" type="module" defer></script>
+</head>
+
+<body>
+  <div id="app">
+
+    <header>
+      <h1><img src="./images/Gitfav.png" alt=""></h1>
+      
+      <div id="add">
+        <label class="sr-only" for="input-search">Github user</label>
+        <input id="input-search" type="text" placeholder="Digite o github username que quer favoritar">
+        <button>
+          &star;
+          <p>Favoritar</p>
+        </button>
+      
+      </div>
+    </header>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Users</th>
+          <th>Repositories</th>
+          <th>Followers</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      
+      <tbody>
+        <tr>
+          <td class="user">
+            <img src="https://github.com/RobertoLuiz-dev.png" alt="imágem do contato">
+            <a target="_blank" href="https://github.com/RobertoLuiz-dev">
+              <p>Roberto Luiz</p>
+              <span>/RobertoLuiz-dev</span>
+            </a>
+          </td>
+          <td class="repositories">17</td>
+          <td class="followers">1</td>
+          <td><button>Remover</button></td>
+        </tr>
+        
+        <tr>
+          <td class="user">
+            <img src="https://github.com/maykbrito.png" alt="imágem do contato">
+            <a target="_blank" href="https://github.com/maykbrito">
+              <p>Mayk Brito</p>
+              <span>/maykbrito</span>
+            </a>
+          </td>
+          <td class="repositories">76</td>
+          <td class="followers">9589</td>
+          <td><button>Remover</button></td>
+        </tr>  
+
+      </tbody>
+    </table>
+
+    <footer>
+      <div class="creator">
+        <p>Developed by Roberto Luiz</p>
+        <a target="_blank" href="https://www.linkedin.com/in/roberto-luiz-0a2774110/"><img src="./images/avatar.jpg" id="avatar" alt="Site author avatar"></a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

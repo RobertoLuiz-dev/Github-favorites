@@ -1,4 +1,4 @@
-GitFav - projeto para favoritar e acessar facilmente perfis de desenvolvedores no github. A aplicação conta com responsividade, pesquisa por click no botao ou tecla enter pressionada no teclado e validação de usuarios afim de evitar duplicacao de contatos.
+GitFav - project to easily favorite and access developer profiles on github. The application has responsiveness, search by button click or enter key pressed on the keyboard and user validation to avoid duplication of contacts.
 
 ![image](https://github.com/user-attachments/assets/08133361-bf1f-4935-9362-9e9f9a0a450c)
 
